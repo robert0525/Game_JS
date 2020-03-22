@@ -1,5 +1,7 @@
-function Enemy (ClassType, health, mana, strength, agility, speed ) {
-    this.ClassType = ClassType;
+let player;
+
+function Enemy (enemyType, health, mana, strength, agility, speed ) {
+    this.ClassType = enemyType;
     this.health = health;
     this.mana = mana;
     this.strength = strength;
